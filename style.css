@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+    background: #eef4f3;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+#card .card-container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+    height: 100%;
+    width: 750px;
+    border-radius: 5px;
+    padding: 4rem 1rem;
+    box-shadow: 0px 7px 8px 0px rgb(213, 213, 213);
+}
+
+#card .about {
+    text-align: center;
+}
+
+#card .about h2 {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+#card .about p {
+    font-size: 0.9rem;
+}
+
+#card .email-subscribe {
+    padding: 1.5rem 0;
+}
+
+#card .email-subscribe #email {
+    width: 325px;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #d5d5d5;
+}
+
+#card .btn {
+    padding: 0.8rem 1rem;
+    border: none;
+    width: 200px;
+    margin-left: 0.5rem;
+    background: #4083d9;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 8px 7px 0px rgb(173, 205, 247)
+}
+
+#card .btn i {
+    margin-left: 0.2rem;
+}
+
+#card .btn:hover {
+    opacity: 0.9;
+}
+
+#card .check {
+    margin: 2rem 0;
+}
+
+#card label {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+#card input[type="checkbox"] {
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    color: #d5d5d5;
+    border: 2px solid #d5d5d5;
+    border-radius: 5px;
+}
+
+#card input[type='checkbox']:checked {
+    background-color: #4083d9;
+}
